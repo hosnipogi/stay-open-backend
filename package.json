@@ -1,8 +1,9 @@
 {
-    "name": "functions",
+    "name": "stay-open-apollo-server",
+    "private": "true",
     "scripts": {
         "build": "tsc",
-        "serve": "npm run build && node lib/index.js",
+        "serve": "npm run build && node lib/src/index.js",
         "start": "node lib/index.js",
         "deploy": "npm run build && gcloud app deploy",
         "ts": "yarn nodemon src/index.ts"
