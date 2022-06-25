@@ -6,6 +6,7 @@
         "serve": "npm run build && node lib/src/index.js",
         "start": "node lib/index.js",
         "deploy": "npm run build && gcloud app deploy",
+        "postinstall": "npm run tsc",
         "ts": "yarn nodemon src/index.ts"
     },
     "main": "lib/index.js",
